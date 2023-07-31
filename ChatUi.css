@@ -1,0 +1,380 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: #f1f6fa;
+}
+.Wholepage{
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.SideNavbar{
+    text-align: center;
+    left: 10px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: min-content;
+    padding: 0px 15px 0px 15px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.SideNavbar a{
+     padding: 5px;
+    display: block;
+}
+.SideNavbar img:hover{
+    border-radius: 9px;
+    box-shadow: 0px 2px 9px 3px  #dfdede;
+}
+.SideNavbar img{
+    margin: 0;
+    height: 22px;
+    width: 22px;
+    padding: 5px 8px 5px 8px;
+    
+}
+.logo{
+    position: fixed;
+    left: 32px;
+    top:20px;
+    height: 35px;
+    width: 35px;
+}
+.messagebox{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 130px;
+}
+.headlines{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+}
+heading{
+    margin: 0;  
+}
+
+.Messages{
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffffff;
+    padding: 0px 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    
+}
+.Messages h3{
+    margin:0;
+    font-size: 15px;
+    padding: 10px 0px 10px 0px;
+}
+.search{
+    display: flex;
+    width: fit-content;
+    border: 1px solid #6F96AA;
+    align-items: center;
+    padding: 0px 0px 0px 10px;
+    border-radius: 10px;
+}
+.Researchlogo{
+    height: 20px;
+    width: 20px;
+}
+.searchtxt{
+    width: 280px;
+    padding: 4px;
+    margin: 0;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+}
+
+.Profile{
+    height: 40px;
+    width: 40px;
+    background-color: #6F96AA;
+    border-radius: 10px;
+}
+.contactstiles{
+    display: flex;
+    gap: 15px;
+    padding-top: 10px;
+}
+.contacts{
+    padding-top: 10px;
+    font-size: 13px;
+    color: #6F96AA;
+}
+.Vall{
+    padding-top: 10px;
+    font-size: 12px;
+    color: #FF844B;
+    font-weight: bold;
+}
+.Vall:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.labels{
+    padding: 10px 0px 0px 0px;
+    display: flex;
+    gap: 220px;
+}
+.Underline{
+    padding: 10px 0px 10px 0px;
+    border-bottom: 1px solid #6F96AA;
+}
+.Chats{
+    padding-top: 10px;
+}
+
+.Chats label{
+    color: #6F96AA;
+    font-size: 13px;
+}
+.profileimg{
+    height: 40px;
+    width: 40px;
+    background-color: #6F96AA;
+    border-radius: 10px;
+}
+.profileimg :hover{
+    box-shadow: 0px 2px 9px 3px  #dfdede;
+}
+.Profilepicture{
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.name{
+    display: block;
+}
+.name h4{
+    font-size: 13px;
+    margin: 0;
+}
+.name p{
+    font-size: 12px;
+    color: #6F96AA;
+    margin: 0;
+}
+.TileContent{
+    display: flex;
+}
+.TileContent label{
+    position: relative;
+    left: 70px;
+    font-size: 10px;
+}
+.Tile{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.Tiles{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Vmore{
+    padding: 10px 120px 10px 120px;
+    color: #FF844B;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 2px solid #FF844B;
+    cursor: pointer;
+}
+.Vmore:hover{
+    background-color: #FF844B;
+    color: white;
+}
+.newchat{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 10px 0px;
+}
+.icons{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 0px 20px 70px;
+    
+}
+.icons .img{
+    height: 40px;
+    width: 40px;
+}
+.Userprof{
+    height: 45px;
+    width: 140px;
+}
+.newMsg{
+    background-color: #ffffff;
+    height: fit-content;
+    width: max-content;
+    padding: 0px 20px 0px 20px;
+    border-radius: 10px;
+    
+}
+.titlebar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    border-bottom: 1px solid #6F96AA;
+    padding: 15px 0px 10px 0px;
+    
+}
+
+.status{
+    display: flex;
+    flex-direction: column;
+    
+}
+.status h4{
+    margin: 0;
+} 
+.status p{
+    text-align: left;
+    color: #6F96AA;
+    font-size: 12px;
+    margin: 0;
+}
+.ChatOptions img{
+    width: 20px;
+    height: 20px;
+}
+.ChatOptions {
+    display: flex;
+    gap: 20px;
+    padding: 0px 0px 0px 600px;
+}
+.oppend{
+    padding: 10px 0px 60px 0px;
+}
+.oppend p{
+    background-color:  #e3ebf1;
+    width: fit-content;
+    font-size: 13px;
+    margin-bottom: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+}
+.oppend label{
+    margin: 0;
+    font-size: 11px;
+}
+.myend{
+    padding: 0px 0px 155px 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.myend p{
+    background-color:  #FF844B;
+    color: #ffffff;
+    width: fit-content;
+    font-size: 13px;
+    margin-bottom: 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border-bottom-right-radius: 0;
+    
+}
+.time{
+    margin: 0;
+    font-size: 11px;
+    color: #6F96AA;
+}
+.textbox{
+    height: fit-content;
+    display: flex;
+    gap: 10px;
+    background-color: #E3EBF1;
+    align-items: center;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px; 
+
+}
+.textbox .newmessage{
+    background-color: transparent;
+    width: 740px;
+    height: 30px;
+    border: 0;
+    outline: none;
+    padding: 5px 0px 5px 0px; 
+} 
+.msgoptions{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.msgoptions a:hover{
+    cursor: pointer;
+}
+.msgoptions img{
+    height: 20px;
+    width: 20px;
+}
+.msgoptions button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #FF844B;
+    width: 90px;
+    height: 35px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.msgoptions button:hover{
+    background-color: #f57135;
+}
+.Sentico{
+    height: 5px;
+    width: 5px;
+}
+.compose{
+    
+    padding: 0px 0px 20px 0px;
+}
+.ellipse{
+    height: 9px;
+    width: 9px;
+}
+.Userdetails{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.Userdetails h4{
+    margin: 0;
+    color: #6F96AA;
+}
+.Userdetails p{
+    margin: 0;
+    font-size: 10px;
+    color: #6F96AA;
+}
+.Userprofile{
+    display: flex;
+    gap: 10px;
+}
